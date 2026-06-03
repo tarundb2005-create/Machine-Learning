@@ -36,3 +36,6 @@ y_predicted = model.predict(X_test)        #creating object for prediction
 y_predicted
 
 model.predict_proba(X_test)                  #predicting probablity to buy insurance x = not likely , y = likely
+
+Probablity = model.predict_proba(X_test)
+Probablity
